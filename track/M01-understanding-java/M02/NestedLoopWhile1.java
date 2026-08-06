@@ -6,7 +6,7 @@ public class NeatedLoopWhile1{
             while(j<=5){
                 System.out.println(j);
             }
-            System.err.println("\n");
+            System.out.println("");
         }
     }
 }

@@ -4,7 +4,7 @@ public class NestedLoopFor1{
             for(int j=1;j<=5;j++){
                 System.out.println(j);
             }
-            System.err.println("\n");
+            System.out.println("");
         }
     }
 }
