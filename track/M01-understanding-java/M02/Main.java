@@ -20,5 +20,14 @@ public class Main{
         System.out.println(s1.height);
         s1.run();
         s1.sleep();
+        Student s2=new Student();
+        s2.name="raja";
+        s2.age=23;
+        s2.height=4.5;
+        System.out.println(s2.name);
+        System.out.println(s2.age);
+        System.out.println(s2.height);
+        s2.run();
+        s2.sleep();
     }
 }
