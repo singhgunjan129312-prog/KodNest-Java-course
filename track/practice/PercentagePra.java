@@ -1,4 +1,10 @@
 import java.util.Scanner;
+class StudentProgress{
+    String name;
+    int completedLessons;
+    int totalLessons;
+    int percentage;
+}
 
 public class PercentagePra {
     public static void main(String[] args) {
