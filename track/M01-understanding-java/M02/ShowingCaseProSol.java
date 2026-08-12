@@ -6,7 +6,8 @@ class Student{
         this.name=name;
         this.age=age;
         this.height=height;
-    }
+           
+        }
     void display(){
         System.out.println(name);
         System.out.println(age);
