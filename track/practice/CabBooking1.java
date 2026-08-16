@@ -32,7 +32,7 @@ class CabBooking {
     }
 }
 
-public class CabBooking {
+public class CabBooking1 {
 
     public static void main(String[] args) {
 
