@@ -16,11 +16,12 @@ public class StoreValOfAnotherArr{
         for(int i=0;i<a.length;i++){
             b[j]=a[i];
             j++;
+        }
         
         System.out.println("Enter the value of array a");
-         for(int i=0;i<a.length;i++){
-            System.out.println(a[i]);
 
+        for(int i=0;i<a.length;i++){
+            System.out.println(a[i]);
         }
         
         System.out.println("Enter the value of array b");
