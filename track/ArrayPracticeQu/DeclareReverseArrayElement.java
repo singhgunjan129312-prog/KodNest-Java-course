@@ -7,9 +7,9 @@ public class DeclareReverseArrayElement{
         for(int i=a.length-1;i>=0;i--){
             //for(i=0;i<a.length;i++)
             a[i]=sc.nextInt();}
-        }
+    }
         System.out.println("Enter the values of Array:");
-        for (int i=a.length-1;i>=0;i--){
+        for (int i=0;i<a.length;i++){
             // for(i=0;i<a.length;i++)
             System.out.println(a[i]);
         }
