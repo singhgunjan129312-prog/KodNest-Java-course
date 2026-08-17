@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class StoreValOfAnotherArr{
+public class StoreValOfAnotherArrOfReverseOr{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int[] a=new int[5];
@@ -12,11 +11,11 @@ public class StoreValOfAnotherArr{
         int[] b=new int[a.length];
         
         System.out.println("Enter the array b element");
-        int j=0;
+        int j=b.length;
         for(int i=0;i<a.length;i++){
             b[j]=a[i];
-            j++;
-        
+            j--;
+        }
         System.out.println("Enter the value of array a");
          for(int i=0;i<a.length;i++){
             System.out.println(a[i]);
