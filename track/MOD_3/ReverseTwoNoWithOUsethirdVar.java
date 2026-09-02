@@ -6,7 +6,7 @@ public class ReverseTwoNoWithOUsethirdVar{
         while(l<r){
             a[l] = a[l] + a[r];
             a[r]=a[l]-a[r];
-            a[l]=a[l]+a[r];
+            a[l]=a[l]-a[r];
             l++;
             r--;
         }
