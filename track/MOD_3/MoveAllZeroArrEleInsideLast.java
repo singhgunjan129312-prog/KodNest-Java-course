@@ -30,5 +30,7 @@ public class MoveAllZeroArrEleInsideLast {
         }
         
         sc.close();
+
+
     }
 }
