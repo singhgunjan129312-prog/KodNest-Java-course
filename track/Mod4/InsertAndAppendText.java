@@ -13,6 +13,7 @@ public class InsertAndAppendText{
        
         builder.insert(0, prefix + " ");
         builder.append(" ");
+        builder.append(suffix);
         
 
         System.out.println("Edited text: " + builder);
