@@ -3,7 +3,7 @@ class Student {
     String name;
     static int count;
     Student(String name){
-        this.name=neme;
+        this.name = name;
         count++;
     }
 }
