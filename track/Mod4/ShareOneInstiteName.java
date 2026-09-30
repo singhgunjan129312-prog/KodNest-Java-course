@@ -7,10 +7,10 @@ class Learner{
         
     }
     void display(){
-        System.out.println(LearnerName + " - " + instituName);
+        System.out.println(learnerName + " - " + instituteName);
     }
 }
-public class ShareOneInstitute{
+public class ShareOneInstiteName{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Learner.instituteName="kod Nest";
