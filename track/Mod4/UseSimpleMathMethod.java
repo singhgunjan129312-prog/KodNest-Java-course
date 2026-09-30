@@ -8,7 +8,7 @@ public class UseSimpleMathMethod {
         int b = sc.nextInt();
         int max = Math.max(a,b);
         int min = Math.min(a,b);
-        int pos= Math(a);
+        int pos= Math.abs(a);
         System.out.println("Maximum: " + max);
         System.out.println("Minimum: " + min);
         System.out.println("Absolute first: " + pos);
