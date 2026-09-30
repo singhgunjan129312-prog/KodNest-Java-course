@@ -1,14 +1,14 @@
 import java.util.Scanner;
 class Message{
     String text;
-    Message(Sting text) {
+    Message(String text) {
         this.text = text;
     }
     void displayText(){
         System.out.println("Message: " + text);
 
     }
-    Static void displayCourse() {
+    static void displayCourse() {
         System.out.println("Course: Java");
     }
 }
