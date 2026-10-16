@@ -25,8 +25,8 @@ public class InheritancePractice2{
         m1.eat();
         m1.sleep();
         Tiger t1=new Tiger();
-        t1.eat(;)
-        tt1.sleep();
+        t1.eat();
+        t1.sleep();
         
     }
 }
