@@ -23,7 +23,7 @@ class Child2 extends Parent{
         System.out.println("Inside Child2 dis2");
     }
 }
-public class AbstractPracPractice1{
+public class AbstractPractice1{
     public static void main(String[] args){
         Child1 ch1 = new Child1();
         Child2 ch2 = new Child2();
