@@ -10,6 +10,6 @@ public class QuevePro {
         q.offer(30);
         System.out.println(q.size());
         System.out.println(q.peek());
-        System.out.println(q.peek()); 
+        System.out.println(q.poll()); 
     }
 } 
