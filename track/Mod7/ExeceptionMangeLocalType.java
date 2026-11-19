@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ExeceptionManageLocalType {
+class ExeceptionMangeLocalType {
     public static void main(String[] args) {
         System.out.println("Main method Executon Started....");
         divide();
