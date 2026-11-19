@@ -8,11 +8,11 @@ class DrivingLicence {
         System.out.println("Enter your Age:");
         age = sc.nextInt();
     }
-    void verify() throws UnderAgeException,OverAgeExceptionverAgeException{
+    void verify() throws UnderAgeException,OverAgeException{
         if(age < 18){
          UnderAgeException uae = new UnderAgeException();
          throw uae;
-        } else if(age > 65)           OverAgeException 5) {
+        } else if(age > 65) {
             throw new OverAgeException();
         } 
         else if(age > 65) {
@@ -58,22 +58,15 @@ class CustomExceptionPro1
 
         dl.takeUserAge();
 
-
-
         try
 
         {
 
             dl.verify();
 
-        }
-
-  UnderAge      cat | Overch(UnderAgeException | OverAgeException e)
-
+        }catch (UnderAgeException | OverAgeException e)
         {
-
         		e.printStackTrace();
-
         }
 
     }

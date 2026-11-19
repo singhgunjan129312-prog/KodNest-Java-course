@@ -53,7 +53,7 @@ class BankAccount {
     }
 }
 
-public class ATMSystem {
+public class BankManagementApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

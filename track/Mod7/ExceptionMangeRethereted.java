@@ -7,8 +7,8 @@ class ExceptionManageRethereted{
                 divide();
 
             }
-            catch(Exeception e){
-                System.out.println("Exception handled in Main")
+            catch(Exception e){
+                System.out.println("Exception handled in Main");
             }
         System.out.println("Main method Execution Completed....");
     }
@@ -24,7 +24,7 @@ class ExceptionManageRethereted{
             System.out.println(res);
 
         }
-        catch(Exeception e){
+        catch(Exception e){
             System.out.println("Exception handled in divide Method");
             throw e;
         }
