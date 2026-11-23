@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-import javaimport java.util.ArrayList;
-..util.ArrayList;
+
 public class Prg2 {
     public static void main(String[] args) {
         ArrayList al = new ArrayList();
@@ -28,6 +27,14 @@ public class Prg2 {
         al.remove(6);
         System.out.println(al);
         al.set(2, "Raja");
-        System.out.println(s);     
+        System.out.println(al);
+        al.add(2,23.4);
+        System.out.println(al);
+        ArrayList al2 = new ArrayList();
+        al2.add(777);
+        al2.add(888);
+        System.out.println(al2);
+        al.addAll(al2);
+        System.out.println(al);     
     }
 }
