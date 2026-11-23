@@ -51,7 +51,7 @@ class PrintChar extends Thread {
 
 }
 
-public class MainMultiThreading1  {
+public class InterruptedException{
     public static void main(String[] args) {
         Addition ad = new Addition();
         PrintNum pn = new PrintNum();

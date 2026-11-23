@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 class Addition extends Thread{
@@ -58,14 +59,8 @@ public class IdentifyJoinExcetion{
         PrintChar pc = new PrintChar(); 
         ad.start();
         pn.start();
-        pc.start();
-        try {
-            ad.join();
-            pn.join();
-            pc.join();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }   
-        System.out.println("Main Thread Execution Completed and Closed it");
+        pc.start(); 
+        pc.interrupt();  
+        pn.interrupt();    
     }
 }
