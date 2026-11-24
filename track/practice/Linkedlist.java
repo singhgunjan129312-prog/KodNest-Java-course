@@ -24,6 +24,7 @@ public class Linkedlist {
         //head
         LinkedNode head = first;
         LinkedNode current = head;
+        
         //fetch
         while(current!= null) {
             System.out.println(current.val + " -> ");
